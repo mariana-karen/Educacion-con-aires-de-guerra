@@ -6,7 +6,47 @@
     overflow-y:scroll;
     overflow-x:hidden; 
 }
+/*----------------------------caja de comentarios--------*/
+.section HCB_comment_box{
+    margin-left: 10px;
+    margin-right: 20px
+}
 
+#HCB_comment_box .submit {
+    background:none; /* Clear twitter bootstrap style. */
+    background-color:green;
+    border:1px solid darkgreen;
+    color: white;
+} 
+#HCB_comment_box blockquote {
+    color:blue;
+  }
+#HCB_comment_box {
+    color:blue;
+    font-size: 15px;
+  }
+#HCB_comment_box a{
+    padding: 0 0;
+    color: #175493;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    filter: brightness(100%);
+}
+#HCB_comment_box img{
+    width: 40px;
+    height:50px;
+    padding: 1px;
+    margin-bottom: 0px;
+    margin-right: 1px;
+    object-fit: contain;
+}
+input#hcb_form_name {
+    color:blue;
+    font-size:18px;
+  }
 
 /*---------------------------------------letra---------------------------------- */ 
 .section h2{ /*titulos */
@@ -109,6 +149,7 @@
     object-fit: contain; 
     filter: brightness(100%);
     align-items: center;
+    display: inline-block;
 }
 .contenedor-videos{
     display: grid;
@@ -130,12 +171,12 @@
 } 
 
 .contenedor-videos video{
-    padding: 3px;
-    width: 300px;
+    padding: 3px 0px 2px 250px;
+    width: 600px;
     object-fit: cover;
     border: 2px;
     filter: brightness(100%);
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .contenedor-videos video:hover{
@@ -159,7 +200,7 @@
     border: 1px solid #fff;
     border-radius: 50px;
     background: #fff;
-    filter: brightness(100%)
+    filter: brightness(100%);
 } 
 .section a:hover{
      filter: brightness(50%);
