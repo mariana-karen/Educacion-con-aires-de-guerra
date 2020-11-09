@@ -186,6 +186,9 @@ input#hcb_form_name {
 .contenedor-texto{
     
 }
+.contenedor-texto{
+    max-width: 450px;
+}
 .contenedor-click{
     margin-top: 50px;
     margin-left: 100px;
